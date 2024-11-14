@@ -30,7 +30,8 @@ Remark: All datasets are collected independently of each other.
 
 Note that the code files all share the same set of implementation, except that for three population competition model,
 the input dimension of the network is adjusted to 3. Therefore, for each relevant code block for arbitrary_2d_new.ipynb,
-there are substantial comments to elaborate the operations. Nevertheless, we list important functions here:
+there are substantial comments to elaborate the operations. For code commented out, they are either code used to generate
+data files, which only need to run once, or deprecated code. We list important functions here:
 
 1. *system* \
 arguments: (x,y) - 2D coordinates of a point \
